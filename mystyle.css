@@ -1,54 +1,36 @@
 
 body{
-    background-color: aquamarine;
+    background-color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
 
 h1{
     text-align: center;
-    font-size: 35px;
-    background-image: url(Pictures/images.jpg);
-    height: 50px;
+    font-size: 70px;
+    background-color: aquamarine;
+    height: 120px;
     background-position: center;
-    width: 400px;
+    width: inherit;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 50px;
+    color: white;
 }
 
 .SectionTitle {
-    background-color: white;
-    font-size: 16px;
-    color: black;
+    background-color: aquamarine;
+    font-size: 30px;
+    color: white;
     width: 30%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    float: inline-end;
     border-radius: 20px;
     padding: 10px;
+    font-weight: bolder;
 
 }
 
-h3{
-    background-color: grey;
-    font-size: 14px;
-    border: 1px solid black;
-    color: white;
-    width: 10%;
-    height: 20px;
-    border-radius: 5px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}
-
-h3 a:hover{
-    background-color:white;
-    color: black;
-    
-}
 
 #locationCat {
     width: 300px;
@@ -56,11 +38,14 @@ h3 a:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
 p{
-    color: black;
-    font-size: 14px;
+    color: white;
+    font-size: 20px;
     text-align: left;
     width: 80%;
+    background-color: aquamarine;
+    font-weight: bold;
 }
 
 a{
@@ -77,10 +62,10 @@ img{
 }
 
 h4{
-    background-color: white;
+    background-color: aquamarine;
     font-size: 30px;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid white;
+    color: white;
     width: 30%;
     height: 40px;
     border-radius: 20px;
@@ -97,20 +82,78 @@ h5{
     margin-right: auto;
     text-align: center;
 }
+
 .products{
-    width: 200px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.products.pics{
+    width: 200px4;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+ol{
+
+}
+
+ol li{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .abstract{
-    background: white;
+    background: aquamarine;
     text-align: justify;
     padding: 20px;
     border-radius: 8px;
     margin-right: auto;
     margin-left: auto;
     text-indent: 20px;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 150px;
+    
+}
+
+ul{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content
+}
+
+ul li{
+    background-color: aquamarine;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li a{
+    text-align: center;
 }
